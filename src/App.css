@@ -30,14 +30,34 @@
   text-align: center;
 }
 
-.Intro {
-  margin-top: 60vmin;
-  width: auto;
+.intro-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(50vmin);
-  letter-spacing: .03em;
-  color: white;
-  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 3vmin;
+  margin-left: 5vmin;
+  text-align: left;
+  /* gap: -20px; */
+}
+
+.subheader {
+  font-size: calc(3vmin);
+  letter-spacing: .0em;
+  color: rgb(230, 44, 81);
+  margin-top: 5vmin;
+  margin-bottom: -5vmin;
+}
+
+.header {
+  font-size: calc(25vmin);
+  margin-bottom: -9vmin;
+  letter-spacing: -.5vmin;
+}
+
+.header2 {
+  font-size: calc(25vmin);
+  margin-bottom: -9vmin;
+  margin-left: -1vmin;
+  letter-spacing: -1vmin;
 }
