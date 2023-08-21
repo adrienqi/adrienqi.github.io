@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2306ec0.css",
-    "main.js": "/static/js/main.87484a4c.js",
+    "main.css": "/static/css/main.6b853e18.css",
+    "main.js": "/static/js/main.e6bda154.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/nightcarfinal.jpg": "/static/media/nightcarfinal.11d57754e5b4a4d0bd2c.jpg",
+    "static/media/BergenMono-Bold.woff": "/static/media/BergenMono-Bold.dc48933e0d7f88da6355.woff",
     "static/media/Rebeqa-ExtraLight.ttf": "/static/media/Rebeqa-ExtraLight.adf2394994d921a8dbe7.ttf",
+    "static/media/BergenMono-Bold.woff2": "/static/media/BergenMono-Bold.d660848539e7463d04e6.woff2",
+    "static/media/ITC Busorama Bold.otf": "/static/media/ITC Busorama Bold.b74fad10b51d911f7829.otf",
     "static/media/Rebeqa-ExtraLight.woff": "/static/media/Rebeqa-ExtraLight.70a3e53901589929d519.woff",
     "static/media/Rebeqa-ExtraLight.woff2": "/static/media/Rebeqa-ExtraLight.ad6e7f6d529986af9cd7.woff2",
+    "static/media/Paralines-Regular.otf": "/static/media/Paralines-Regular.546ad5550618fa3e3525.otf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.d2306ec0.css.map": "/static/css/main.d2306ec0.css.map",
-    "main.87484a4c.js.map": "/static/js/main.87484a4c.js.map",
+    "main.6b853e18.css.map": "/static/css/main.6b853e18.css.map",
+    "main.e6bda154.js.map": "/static/js/main.e6bda154.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2306ec0.css",
-    "static/js/main.87484a4c.js"
+    "static/css/main.6b853e18.css",
+    "static/js/main.e6bda154.js"
   ]
 }
