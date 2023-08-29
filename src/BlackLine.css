@@ -1,9 +1,27 @@
-.black-line {
-    content: "";
-    position: absolute;
-    margin-left: 80vmax;
-    top: 0;
-    bottom: 0;
-    width: 10vmax;
-    background-color: black;
-  }
+@media (orientation: landscape) {
+    .black-line {
+        display: flex;
+        flex-direction: row;
+        content: "";
+        position: absolute;
+        margin-left: 80vmax;
+        top: 0;
+        bottom: 0;
+        width: 10vmax;
+        background-color: black;
+    }
+}
+
+@media (orientation: portrait) {
+    .black-line {
+        display: flex;
+        flex-direction: row;
+        content: "";
+        position: absolute;
+        margin-left: 80vmin;
+        top: 0;
+        bottom: 0;
+        width: 10vmax;
+        background-color: black;
+    }
+}

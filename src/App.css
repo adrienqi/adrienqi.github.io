@@ -1,63 +1,71 @@
-.nightcar {
-  position: absolute;
-  z-index: -1;
-  margin-left: 50vmin;
-  margin-top: 25vmin;
-}
-
-/* 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} 
-
-.App-link {
-  color: #61dafb;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 .App {
-  text-align: center;
-}
-
-.intro-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: 3vmin;
-  margin-left: 5vmin;
-  text-align: left;
-  /* gap: -20px; */
+  flex-direction: row;
 }
 
-.subheader {
-  font-size: calc(3vmin);
-  letter-spacing: .0em;
-  color: rgb(230, 44, 81);
-  margin-top: 5vmin;
-  margin-bottom: -5vmin;
+@media (orientation: landscape) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 3vmin;
+    margin-left: 5vmin;
+    text-align: left;
+  }
+
+  .subheader {
+    font-size: calc(3vmin);
+    letter-spacing: .0em;
+    color: rgb(230, 44, 81);
+    margin-top: 5vmin;
+    margin-bottom: -5vmin;
+  }
+
+  .header {
+    font-size: calc(25vmin);
+    margin-bottom: -9vmin;
+    letter-spacing: -.5vmin;
+  }
+
+  .header2 {
+    font-size: calc(25vmin);
+    margin-bottom: -9vmin;
+    margin-left: -1vmin;
+    letter-spacing: -1vmin;
+  }
 }
 
-.header {
-  font-size: calc(25vmin);
-  margin-bottom: -9vmin;
-  letter-spacing: -.5vmin;
+@media (orientation: portrait) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 3vmin;
+    margin-left: 5vmin;
+    text-align: left;
+  }
+
+  .subheader {
+    font-size: calc(3vmin);
+    letter-spacing: .0em;
+    color: rgb(230, 44, 81);
+    margin-top: 5vmin;
+    margin-bottom: -5vmin;
+  }
+
+  .header {
+    font-size: calc(25vmin);
+    margin-bottom: -9vmin;
+    letter-spacing: -.5vmin;
+  }
+
+  .header2 {
+    font-size: calc(25vmin);
+    margin-bottom: -9vmin;
+    margin-left: -1vmin;
+    letter-spacing: -1vmin;
+  }
 }
 
-.header2 {
-  font-size: calc(25vmin);
-  margin-bottom: -9vmin;
-  margin-left: -1vmin;
-  letter-spacing: -1vmin;
-}
